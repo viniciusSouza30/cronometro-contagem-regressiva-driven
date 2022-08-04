@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    flex-direction: column;
+}
+
+.btn-vai{
+    background-color: green;
+}
+
+.btn-resetar{
+    background-color: rgb(212, 14, 14);
+}
+
+.colocando-data button:hover{
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.colocando-data button{
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+.emoji{
+    font-size: 64px;
+}
