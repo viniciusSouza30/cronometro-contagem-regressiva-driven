@@ -8,22 +8,46 @@ body{
 
 .btn-vai{
     background-color: green;
+    border: none;
+    height: 30px;
+    margin: 0px 3px 0px 12px;
 }
 
 .btn-resetar{
+    height: 30px;
     background-color: rgb(212, 14, 14);
+    border: none;
 }
 
 .colocando-data button:hover{
     background-color: rgb(24, 24, 24);
     border: 1px solid rgb(228, 228, 228);
+    color:white;
+    cursor: pointer;
 }
 
 .colocando-data button{
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 10px;
     padding: 4px 12px;
+    color: white;
 }
 
 .emoji{
     font-size: 64px;
+    text-align: center;
+}
+
+.resultado{
+    text-align: center;
+    color: wheat;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    padding: 5px;
 }
